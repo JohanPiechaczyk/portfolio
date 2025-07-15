@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiction - Johan Piechaczyk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #fdfaf6;
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-repeat: repeat;
+      background-size: auto;
+      color: #111;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1.5rem auto 3rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid #000;
+      background-color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .project {
+      margin-bottom: 2rem;
+    }
+
+    .project-title {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-thumbnail {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      border-top: 2px solid #000;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        font-size: 1.5rem;
+        padding: 2rem 1rem 1rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+
+      .project-desc {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Fiction — Johan Piechaczyk</header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="fiction.html">Fiction</a>
+    <a href="documentaire.html">Documentaire</a>
+    <a href="clip.html">Clip</a>
+    <a href="aftermovie.html">Aftermovie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Fiction</h2>
+
+ <div class="project">
+        <div class="project-title">MÖTUS</div>
+        <a href="https://www.youtube.com/watch?v=Su6EMZQ8pmQ" target="_blank">
+          <img class="project-thumbnail" src="https://img.youtube.com/vi/Su6EMZQ8pmQ/maxresdefault.jpg" alt="MÖTUS">
+        </a>
+        <div class="project-desc">Court-métrage 16mm plein d’intrigues, tant formelles que narratives, monté pour Aya Nour en 2024. Sélection au NIFF Festival 2025.</div>
+      </div>
+
+      <div class="project">
+        <div class="project-title">JOSEPH</div>
+        <a href="https://www.youtube.com/watch?v=Q_nGc7eKlak" target="_blank">
+          <img class="project-thumbnail" src="https://img.youtube.com/vi/Q_nGc7eKlak/maxresdefault.jpg" alt="Joseph">
+        </a>
+        <div class="project-desc">Faux documentaire sur un lycéen autiste co-réalisé et interprété en 2017. Selectionné au festival 7e Lune en 2018.</div>
+      </div>
+
+      <div class="project">
+        <div class="project-title">Passer la bague au doigt</div>
+        <a href="https://www.youtube.com/watch?v=AqY6-jpOzWg" target="_blank">
+          <img class="project-thumbnail" src="https://img.youtube.com/vi/AqY6-jpOzWg/maxresdefault.jpg" alt="Passer la bague au doigt">
+        </a>
+        <div class="project-desc">Court-métrage style comédie noire réalisé en 48h (de A à Z) en 2020.</div>
+      </div>
+    </section>
+
+</main>
+  <footer id="contact">
+    © 2025 - Contact : johan.piechaczyk@gmail.com
+  </footer>
+</body>
+</html>
