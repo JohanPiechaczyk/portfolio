@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentaire - Johan Piechaczyk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #fdfaf6;
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-repeat: repeat;
+      background-size: auto;
+      color: #111;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1.5rem auto 3rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid #000;
+      background-color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .project {
+      margin-bottom: 2rem;
+    }
+
+    .project-title {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-thumbnail {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      border-top: 2px solid #000;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        font-size: 1.5rem;
+        padding: 2rem 1rem 1rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+
+      .project-desc {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Documentaire — Johan Piechaczyk</header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="fiction.html">Fiction</a>
+    <a href="documentaire.html">Documentaire</a>
+    <a href="clip.html">Clip</a>
+    <a href="aftermovie.html">Aftermovie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Documentaire</h2>
+
+    <div class="project">
+      <div class="project-title">Grossophobie et culte de la minceur</div>
+      <a href="https://www.youtube.com/watch?v=A1EiyOX0KRY" target="_blank">
+        <img class="project-thumbnail" src="https://img.youtube.com/vi/A1EiyOX0KRY/maxresdefault.jpg" alt="Grossophobie et culte de la minceur">
+      </a>
+      <div class="project-desc">Documentaire étudiant co-réalisé en 2019.</div>
+    </div>
+  </main>
+
+  <footer id="contact">
+    © 2025 - Contact : johan.piechaczyk@gmail.com
+  </footer>
+</body>
+</html>
