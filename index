@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Johan Piechaczyk - Monteur et Vidéaste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #fdfaf6;
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-repeat: repeat;
+      background-size: auto;
+      color: #111;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1.5rem auto 3rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid #000;
+      background-color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.3rem;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      border-top: 2px solid #000;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        font-size: 1.5rem;
+        padding: 2rem 1rem 1rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Johan Piechaczyk</header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="fiction.html">Fiction</a>
+    <a href="documentaire.html">Documentaire</a>
+    <a href="clip.html">Clip</a>
+    <a href="aftermovie.html">Aftermovie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/VHUpMijwVXY" title="Showreel" allowfullscreen></iframe>
+  </div>
+
+  <main>
+    <section id="a-propos">
+      <h2>À propos</h2>
+      <p>
+        Originaire, je suis basé sur Paris depuis quelques années. Un peu touche-à-tout, je suis spécialisé dans les fictions courtes et les aftermovies. 
+        Mon travail s’attache à mettre en valeur le rythme, l’émotion et l’intention artistique des projets sur lesquels je collabore.
+      </p>
+      <p>
+        Que ce soit à travers le montage ou la réalisation, je m’investis pleinement pour donner vie à chaque univers visuel.
+        Vous pouvez découvrir une sélection de mes réalisations dans les différentes catégories ci-dessus. 
+      </p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    © 2025 - Contact : johan.piechaczyk@gmail.com
+  </footer>
+
+</body>
+</html>
