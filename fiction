@@ -119,12 +119,11 @@
 <body>
   <header>Fiction — Johan Piechaczyk</header>
   <nav>
-    <a href="index.html">Accueil</a>
-    <a href="fiction.html">Fiction</a>
-    <a href="documentaire.html">Documentaire</a>
-    <a href="clip.html">Clip</a>
-    <a href="aftermovie.html">Aftermovie</a>
-    <a href="#contact">Contact</a>
+   <a href="index.html">Accueil</a>
+    <a href="clip.html">Clips</a>
+    <a href="fiction.html">Fictions</a>
+    <a href="aftermovie.html">Aftermovies</a>
+    <a href="documentaire.html">Documentaires</a>
   </nav>
 
   <main>
